@@ -6,8 +6,8 @@ using Twilio.Types;
 namespace msgtextTwilio {
     class Program {
         static void Main (string[] args) {
-            string accountSid = "AC9c14935847bc6e10a1e10e5e1f9c0c77";
-            string authToken = "27ddc48029ef810d137ebce637d4a575";
+            string accountSid = "";
+            string authToken = "";
             TwilioClient.Init (accountSid, authToken);
             var to = "+5521967604013";
             var from = "+14076033468";
